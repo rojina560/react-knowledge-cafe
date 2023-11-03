@@ -1,0 +1,43 @@
+[
+{
+    "id": 1,
+    "cover": "https://www.example.com/images/cover1.jpg",
+    "title": "The Art of Leadership",
+    "author_img": "https://www.example.com/images/author1.jpg",
+    "posted_date": "2023-11-01",
+    "reading_time": "15 minutes"
+  },
+
+  {
+    "id": 2,
+    "cover": "https://www.example.com/images/cover2.jpg",
+    "title": "Exploring the Universe",
+    "author_img": "https://www.example.com/images/author2.jpg",
+    "posted_date": "2023-10-28",
+    "reading_time": "20 minutes"
+  },
+  {
+    "id": 3,
+    "cover": "https://www.example.com/images/cover3.jpg",
+    "title": "Cooking Adventures",
+    "author_img": "https://www.example.com/images/author3.jpg",
+    "posted_date": "2023-10-30",
+    "reading_time": "10 minutes"
+  },
+  {
+    "id": 4,
+    "cover": "https://www.example.com/images/cover4.jpg",
+    "title": "The Science of Climate Change",
+    "author_img": "https://www.example.com/images/author4.jpg",
+    "posted_date": "2023-11-02",
+    "reading_time": "25 minutes"
+  },
+  {
+    "id": 5,
+    "cover": "https://www.example.com/images/cover5.jpg",
+    "title": "Mastering the Stock Market",
+    "author_img": "https://www.example.com/images/author5.jpg",
+    "posted_date": "2023-10-27",
+    "reading_time": "18 minutes"
+  }
+]
