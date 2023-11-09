@@ -2,7 +2,7 @@
 /* eslint-disable react/prop-types */
 import { FaBookmark } from 'react-icons/fa';
 const Blog = ({blog , handleAddToBookmark , handleMarkAsRead})=> {
- const {title , cover ,author, author_img,  posted_date, reading_time} = blog;
+ const { id,title , cover ,author, author_img,  posted_date, reading_time} = blog;
 
     return (
         <div className='mb-20 space-y-4'>
@@ -26,7 +26,7 @@ const Blog = ({blog , handleAddToBookmark , handleMarkAsRead})=> {
                 </div>
             </div>
             <h2 className='text-4xl'>{ title}</h2>
-           <button onClick={ () =>handleMarkAsRead (reading_time)} className='text-purple-800 font-bold underline'> mark as read</button>
+           <button onClick={ () =>handleMarkAsRead ( id,reading_time)} className='text-purple-800 font-bold underline'> mark as read</button>
         </div>
     );
 };
